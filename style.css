@@ -1,0 +1,158 @@
+*{
+font-family: 'Open Sans', sans-serif;
+}
+.main{
+	background:url(images/bg2.jpg) no-repeat top;
+	background-size:cover;
+}
+.main > .container-fluid{
+	background: rgba(0,0,0,0.6);
+}
+.container-fluid{
+	padding:0;
+}
+.content{
+	min-height:100vh;
+	max-height:200vh;
+    background-color:rgba(228,228,228,0.8);
+}
+
+/**  HEADER   **/
+
+.header{
+	border-right:1px solid #AEAEAE;
+	min-height:100vh;
+	max-height:200vh;
+}
+.kdlogo{
+	position:relative;
+	top:50px;
+}
+.logo{
+	position:relative;
+	top:70px;
+	width:105%;
+}
+.about{
+	position:relative;
+	top:50px;
+}
+
+
+/** ABOUT **/
+.about-text{
+	margin-top:3%;
+	margin-bottom:3%;
+}
+.hidden-img{
+	display:block;
+}
+.basicidea hr{
+	background-color:#5F98AE;
+	border-color:#5F98AE;
+	margin:0;
+	height:1px;
+}
+.basicidea > p{
+	color:#5F98AE;
+	margin:0;
+	font-family: Quicksand;
+}
+.basicidea > h3{
+	margin-top:6px;
+	font-family: Quicksand;
+}
+.basicidea > h3 span{
+	color:#5F98AE;
+}
+.img-container{
+	margin-top:3%;
+}
+
+/** LINKS **/
+
+.resume{
+	display:block;
+	margin:0 auto;
+	margin-top:5%;
+}
+.btn{
+	width:150px;
+}
+.fb, .linkedin, .mssg{
+	display:block;
+	margin:3% auto;
+}
+.btn.btn-default{
+	background-color:#5F98AE;
+	color:#fff;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+.btn.btn-default:hover.resume{
+	background-color:#393939;
+	color:#FFF;
+}
+
+.btn.btn-default:hover.fb{
+	background-color:#46629E;
+}
+.btn.btn-default:hover.linkedin
+{
+	background-color:#1985BC;
+}
+.btn.btn-default:hover.email
+{
+	background-color:#B43B2D;
+}
+
+
+/** MEDIA QUERIES **/
+@media (min-width:990px) and (max-width:1100px){
+.content{
+	height:670px;
+}
+.btn{
+	width:130px;
+	font-size:1em;
+}
+}
+
+@media (max-width:767px){
+	.content{
+		height:975px;
+		margin:0 5%;
+	}
+	
+	.about-text{
+		font-weight:600;
+	}
+	.img-container{
+		margin-top:-6%;
+	}
+}
+@media (max-width:450px){
+	.content{
+		height:1050px;
+		margin:0 0;
+	}
+
+}
+@media (max-width:330px){
+	.content{
+		height:1100px;
+		margin:0 0;
+
+	}
+	.img2{
+		width:100px;
+		height:100px;
+		display:block;
+		margin:0 auto;
+	}
+	.about-text{
+		margin-top:25%;
+	}
+}
