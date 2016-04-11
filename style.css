@@ -79,7 +79,7 @@ font-family: 'Open Sans', sans-serif;
 .btn{
 	width:150px;
 }
-.fb, .linkedin, .mssg{
+.fb, .linkedin, .email{
 	display:block;
 	margin:3% auto;
 }
